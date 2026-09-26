@@ -1,0 +1,29 @@
+/* Stylesheet for the FEMZYK Clock Application GUI (JavaFX). */
+
+.root {
+    -fx-background-color: linear-gradient(to bottom, #101828, #1f2a44);
+}
+
+.header-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #8fb7e8;
+}
+
+.time-label {
+    -fx-font-family: "Consolas", "DejaVu Sans Mono", monospace;
+    -fx-font-size: 64px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f8fafc;
+}
+
+.date-label {
+    -fx-font-family: "Consolas", "DejaVu Sans Mono", monospace;
+    -fx-font-size: 26px;
+    -fx-text-fill: #94a3b8;
+}
+
+.status-label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #64748b;
+}
